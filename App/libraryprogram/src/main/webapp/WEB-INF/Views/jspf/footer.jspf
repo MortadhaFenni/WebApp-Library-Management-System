@@ -1,0 +1,17 @@
+        </div>
+
+        <div class="container text-center">
+
+            <div>
+                Change theme: 
+                <a class="btn btn-${cookie.theme.value=='yeti' ? 'primary': 'link' }" href="./theme?name=yeti">Yeti</a> |
+                <a class="btn btn-${cookie.theme.value=='darkly' ? 'primary': 'link' }" href="./theme?name=darkly">Darkly</a> |
+                <a class="btn btn-${cookie.theme.value=='superhero' ? 'primary': 'link' }" href="./theme?name=superhero">Superhero</a> |
+                <a class="btn btn-${cookie.theme.value=='pulse' ? 'primary': 'link' }" href="./theme?name=pulse">Pulse</a> |
+                <a class="btn btn-${cookie.theme.value=='united' ? 'primary': 'link' }" href="./theme?name=united">United</a>
+            </div>
+
+            &copy; 2020-2021 All rights reserved by DZEKO MERO
+        </div>
+    </body>
+</html>
